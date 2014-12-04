@@ -1,6 +1,8 @@
-=== tips:
+### tips:
 
 * create a java project, create a java source file and write some code.
+
+* or directly run 'javac src/demo/DemoJni.java' instead of creating a project.
 
 * declare native method, then load the linux native 'so' library.
 
