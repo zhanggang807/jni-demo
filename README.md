@@ -1,8 +1,6 @@
-### tips:
+### Steps :
 
 * create a java project, create a java source file and write some code.
-
-* or directly run 'javac src/demo/DemoJni.java' instead of creating a project.
 
 * declare native method, then load the linux native 'so' library.
 
@@ -13,3 +11,6 @@
 * gcc -fPIC -I $JAVA_HOME/include -I $JAVA_HOME/include/linux -c xxx.c
 
 * gcc -shared xxx.o -o libxxx.so
+
+### Another : 
+* clone this repository then directly run 'javac src/demo/DemoJni.java' instead of creating a project.
